@@ -1,0 +1,22 @@
+[project]
+name = "ecommerce-api"
+version = "1.0.0"
+description = "API de E-Commerce desenvolvida com Flask, que permite gerenciar usuários, produtos e carrinhos de compra. Inclui autenticação de usuários, CRUD de produtos, e funcionalidade de checkout."
+authors = [
+    {name = "Danillo Souza Pereira",email = "danillodesouza03@gmail.com"}
+]
+readme = "README.md"
+requires-python = "^3.9"
+dependencies = [
+    "flask (==2.3.0)",
+    "flask-sqlalchemy (==3.1.1)",
+    "flask-login (==0.6.2)",
+    "flask-cors (==3.0.10)",
+    "werkzeug (==2.3.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
